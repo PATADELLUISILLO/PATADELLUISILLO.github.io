@@ -2,11 +2,15 @@
  * configuración en tu servidor de Firebase.  */
 // @ts-ignore
 firebase.initializeApp({
-   apiKey: "AIzaSyDmovq7T_-Ym7iutIjJIN1ABI33usaMmJo",
-    authDomain: "autenfi41.firebaseapp.com",
-    projectId: "autenfi41",
-    storageBucket: "autenfi41.appspot.com",
-    messagingSenderId: "777550911881",
-    appId: "1:777550911881:web:205487691c96b111382958",
-    measurementId: "G-YHTXKL0597"
+    projectId: "autenfia41",
+    storageBucket: "autenfia41.appspot.com",
+    messagingSenderId: "5630037742",
+    appId: "1:5630037742:web:840f7dfb68e99b7478adff",
+    measurementId: "G-932N1VJ8RF"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+¿Usas npm o un agrupador como Webpack o Rollup? Consulta el SDK modular (actualmente en versión beta).
 });

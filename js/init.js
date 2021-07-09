@@ -12,5 +12,4 @@ firebase.initializeApp({
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
 </script>
-¿Usas npm o un agrupador como Webpack o Rollup? Consulta el SDK modular (actualmente en versión beta).
-});
+
